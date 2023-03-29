@@ -75,3 +75,25 @@ $("#image_member1").click(function() {
   
     $(".person_word6").html("<p>我是一個剛開始學習前端開發技能的新手小白。</p><p>遇到問題時，我喜歡找到答案並解決問題的快感。</p><p>而我也知道在學習網頁設計的路上，勇於發問是必須的。</p><p>我喜歡的是不斷努力學習後得到的成長，和團隊的進步以及成長後蛻變的自己。</p>");
   });
+
+  //floating animation
+  let display=true;
+  //show when the first page is ready
+  $(document).ready(function(){
+    $('.main_word1').animate({bottom:'17%', opacity:1},1500)
+    $('.main_word2').animate({bottom:'9%', opacity:1},1900)
+    $('#logo').animate({bottom:'18%', opacity:1},2300)
+    $('.title_word1').animate({bottom:'25%', opacity:1},2800)
+    $('.title_word2').animate({bottom:'25%', opacity:1},3600)
+    display= !display
+  })
+
+  //show when scroll to that part
+  $('#WeLugg_aboutCompany').mouseenter(function(){
+    $('.aboutCompany_word1').animate({top: '10%', opacity:1}, 1000)
+    $('.aboutCompany_word2').animate({top: '17%', opacity:1}, 1400)
+    $('#image_left').animate({marginTop: '0%', opacity:1}, 1800)
+    $('#image_mid').animate({marginTop: '0%', opacity:1}, 2400)
+    display= !display
+  })
+

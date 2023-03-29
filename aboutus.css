@@ -18,7 +18,9 @@ body{
     color: #5D5B5B;
     position: absolute;
     width: 48%;
-    bottom: 17%;
+    bottom: -25%; /*17%*/
+    opacity: 0;
+    /*top: 50%;*/
     right: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -30,7 +32,8 @@ body{
     color: #939191;
     position: absolute;
     width: 48%;
-    bottom: 9%;
+    bottom: -39%; /*9%*/
+    opacity: 0;
     right: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -47,14 +50,16 @@ body{
     width: 30%;
     height: 65%;
     position: absolute;
-    bottom: 18%;
+    opacity: 0;
+    bottom: -30%; /*18%*/
     left: 29%;
 }
 .title_word1{
     font-size: 4vw;
     color: #87C2B6;
     position: absolute;
-    bottom: 25%;
+    bottom: -25%; /*25%*/
+    opacity: 0;
     right: calc(38% + 9vw);
     
 }
@@ -62,7 +67,8 @@ body{
     font-size: 4vw;
     color: #5B7097;
     position: absolute;
-    bottom: 25%;
+    bottom: -30%;
+    opacity: 0;
     right: 37%;
   
 }
@@ -86,6 +92,8 @@ body{
     background: url(https://ppt.cc/fCJkvx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
+    margin-top: 20%;
+    opacity: 0;
     margin-left: 12%;
 }
 #image_mid{
@@ -93,6 +101,8 @@ body{
     width: 30%;
     height: 100%;
     margin: 0 1%;
+    margin-top: 20%;
+    opacity: 0;
 }
 #image_right{
     background: url(https://ppt.cc/fxUfYx@.png) no-repeat center/contain;
@@ -106,7 +116,9 @@ body{
     position: absolute;
     text-align: center;
     width: 100%;
-    top: calc(25% - 7vw);
+    top: calc(40% - 7vw); /*calc(25% - 7vw)*/
+    opacity: 0;
+    line-height: 3vw;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -116,7 +128,9 @@ body{
     position: absolute;
     text-align: center;
     width: 100%;
-    top: calc(25% - 4vw);
+    top: calc(40% - 4vw);; /*top: calc(25% - 4vw);*/
+    opacity: 0;
+    line-height: 3vw;
     white-space: nowrap;
     overflow: hidden;
 }
