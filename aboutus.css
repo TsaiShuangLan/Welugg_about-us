@@ -5,7 +5,8 @@ body{
     font-weight: 600;
 }
 #WeLugg_main{
-    background: url(./material/main.png) center/cover;
+    /*background: url(./material/main.png) center/cover;*/
+    background: url(https://ppt.cc/f0lUsx@.png) center/cover;
     position: relative;
     /*max-width: 1280px;*/
     width: 100vw;
@@ -41,7 +42,8 @@ body{
     aspect-ratio: 29/5.32;
 }
 #logo{
-    background: url(./material/logo.png) no-repeat center/contain;
+    /*background: url(./material/logo.png) no-repeat center/contain;*/
+    background: url(https://ppt.cc/fdccdx@.png) no-repeat center/contain;
     width: 30%;
     height: 65%;
     position: absolute;
@@ -80,19 +82,20 @@ body{
     justify-content: space-evenly;
 }
 #image_left{
-    background: url(./material/image_left.png) no-repeat center/contain;
+    /*background: url(./material/image_left.png) no-repeat center/contain;*/
+    background: url(https://ppt.cc/fCJkvx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
     margin-left: 12%;
 }
 #image_mid{
-    background: url(./material/image_mid.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fjMbZx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
     margin: 0 1%;
 }
 #image_right{
-    background: url(./material/image_right.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fxUfYx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
     margin-right: 12%;
@@ -153,27 +156,27 @@ body{
     justify-content: space-evenly;
 }
 #image_member1{
-    background: url(./material/member1.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fHAlkx@.png) no-repeat center/contain;
     width: 17%;
     height: 100%;
 }
 #image_member2{
-    background: url(./material/member2.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fNC8ax@.png) no-repeat center/contain;
     width: 17%;
     height: 100%;
 }
 #image_member3{
-    background: url(./material/member3.png) no-repeat center/contain;
+    background: url(https://ppt.cc/f8S9lx@.png) no-repeat center/contain;
     width: 17%;
     height: 100%;
 }
 #image_member4{
-    background: url(./material/member4.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fleazx@.png) no-repeat center/contain;
     width: 17%;
     height: 100%;
 }
 #image_member5{
-    background: url(./material/member5.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fJkL9x@.png) no-repeat center/contain;
     width: 17%;
     height: 100%;
 }
@@ -235,7 +238,7 @@ body{
     left: 8%;
 }
 #image4{
-    background: url(./material/image4.png) no-repeat bottom left/contain;
+    background: url(https://ppt.cc/fZfAAx@.png) no-repeat bottom left/contain;
     width: 40%;
     height: 22%;
     position: absolute;
@@ -258,17 +261,17 @@ body{
     align-items: center;
 }
 #illustration1{
-    background: url(./material/illustration1.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fo7Zcx@.png) no-repeat center/contain;
     width: 50px;
     height: 50px;
 }
 #illustration2{
-    background: url(./material/illustration2.png) no-repeat center/contain;
+    background: url(https://ppt.cc/flAzyx@.png) no-repeat center/contain;
     width: 50px;
     height: 50px;
 }
 #illustration3{
-    background: url(./material/illustration3.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fQueHx@.png) no-repeat center/contain;
     width: 50px;
     height: 50px;
 }
@@ -321,7 +324,7 @@ body{
     left: 45%;
 }
 .image_ig{
-    background: url(./material/ig.png) no-repeat center/contain;
+    background: url(https://ppt.cc/fE8n9x@.png) no-repeat center/contain;
     width: 3%;
     height: 3%;
     position: absolute;

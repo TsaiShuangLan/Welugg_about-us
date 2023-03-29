@@ -22,7 +22,7 @@ $("#image_member1").click(function() {
     $(".person_word2").text("Programmer");
     $(".person_word3").text("““Every man dies. Not every man really lives.”");
     $(".person_word4").text("");
-    $("#image4").css({ "background": "url(./material/image2.png) no-repeat bottom left/contain" });
+    $("#image4").css({ "background": "url(https://ppt.cc/fzExnx@.png) no-repeat bottom left/contain" });
   
     $("#illustration1~.illustration_word").text("台灣,台北"); //兄弟元素選擇器用~
     $("#illustration2~.illustration_word").text("電機工程學系 - 大學部四年級");
@@ -37,7 +37,7 @@ $("#image_member1").click(function() {
     $(".person_word2").text("Project Leader, Programmer");
     $(".person_word3").text("“You said if I believe enough, I would fly.”");
     $(".person_word4").text("");
-    $("#image4").css({ "background": "url(./material/image3.png) no-repeat bottom left/contain" });
+    $("#image4").css({ "background": "url(https://ppt.cc/fKbpOx@.png) no-repeat bottom left/contain" });
   
     $("#illustration1~.illustration_word").text("台灣,基隆"); //兄弟元素選擇器用~
     $("#illustration2~.illustration_word").text("電機工程學系 - 大學部三年級");
@@ -52,7 +52,7 @@ $("#image_member1").click(function() {
     $(".person_word2").text("Designer");
     $(".person_word3").text("“Design is not just what it looks like and feels like.");
     $(".person_word4").text("Design is how it works.”");
-    $("#image4").css({ "background": "url(./material/image4.png) no-repeat bottom left/contain" });
+    $("#image4").css({ "background": "url(https://ppt.cc/fZfAAx@.png) no-repeat bottom left/contain" });
   
     $("#illustration1~.illustration_word").text("香港,九龍"); //兄弟元素選擇器用~
     $("#illustration2~.illustration_word").text("工業設計系 - 大學部三年級");
@@ -67,7 +67,7 @@ $("#image_member1").click(function() {
     $(".person_word2").text("Programmer");
     $(".person_word3").text("“An unexamined life is not worth living.”");
     $(".person_word4").text("");
-    $("#image4").css({ "background": "url(./material/image5.png) no-repeat bottom left/contain" });
+    $("#image4").css({ "background": "url(https://ppt.cc/fsutzx@.png) no-repeat bottom left/contain" });
   
     $("#illustration1~.illustration_word").text("台灣,基隆"); //兄弟元素選擇器用~
     $("#illustration2~.illustration_word").text("電機工程學系 - 大學部三年級");
