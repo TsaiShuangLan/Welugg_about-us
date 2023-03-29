@@ -303,7 +303,8 @@ body{
     top: 60%;
 }
 .world_map{
-    background: url(./material/world_map.png) no-repeat center/contain;
+    /*background: url(./material/world_map.png) no-repeat center/contain;*/
+    background: url(https://ppt.cc/fefB1x@.png) no-repeat center/contain;
     width: 80%;
     height: 38%;
     position: absolute;
@@ -311,7 +312,8 @@ body{
     left: 10%;
 }
 .image_fb{
-    background: url(./material/fb.png) no-repeat center/contain;
+    /*background: url(./material/fb.png) no-repeat center/contain;*/
+    background: url(https://ppt.cc/fMnI5x@.png) no-repeat center/contain;
     width: 3%;
     height: 3%;
     position: absolute;
