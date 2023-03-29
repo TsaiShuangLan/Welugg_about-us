@@ -7,7 +7,7 @@ $("#image_member1").click(function() {
     $(".person_word2").text("Programmer");
     $(".person_word3").text("“Logic will get you from A to B, imagination will take you everywhere.”");
     $(".person_word4").text("");
-    $("#image4").css({ "background": "url(./material/image1.png) no-repeat bottom left/contain" });
+    $("#image4").css({ "background": "url(https://ppt.cc/fhwc7x@.png) no-repeat bottom left/contain" });
   
     $("#illustration1~.illustration_word").text("台灣,新北"); //兄弟元素選擇器用~
     $("#illustration2~.illustration_word").text("電機工程學系 - 大學部三年級");
