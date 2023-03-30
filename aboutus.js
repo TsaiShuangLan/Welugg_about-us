@@ -133,3 +133,26 @@ $(window).scroll(function() {
     display = true
   }
 });
+
+  //floating animation
+  //let display=true;
+  //show when the first page is ready
+  //$(document).ready(function(){
+  //  $('.main_word1').animate({bottom:'17%', opacity:1},1500)
+  //  $('.main_word2').animate({bottom:'9%', opacity:1},1900)
+  //  $('#logo').animate({bottom:'18%', opacity:1},2300)
+  //  $('.title_word1').animate({bottom:'25%', opacity:1},2800)
+  //  $('.title_word2').animate({bottom:'25%', opacity:1},3600)
+  //  display= !display
+  //})
+
+  //show when scroll to that part
+//  $('#WeLugg_aboutCompany').mouseenter(function(){
+// $('.aboutCompany_word1').animate({top: '10%', opacity:1}, 1000)
+  //  $('.aboutCompany_word2').animate({top: '17%', opacity:1}, 1400)
+    //$('#image_left').animate({marginTop: '0%', opacity:1}, 1800)
+    //$('#image_mid').animate({marginTop: '0%', opacity:1}, 2400)
+    //display= !display
+  //})
+
+
