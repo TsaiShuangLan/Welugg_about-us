@@ -13,7 +13,7 @@ $("#image_member1").click(function() {
   $(".person_word2").animate({right:'50vw'},0);
   $(".person_word3").text("“Logic will get you from A to B,");
   $(".person_word4").text("Imagination will take you everywhere.”");
-  $("#image4").css({ "background": "url(https://ppt.cc/fhwc7x@.png) no-repeat bottom left/contain" });
+  $("#image4").css({ "background": "url(https://ppt.cc/fS2fsx@.png) no-repeat bottom left/contain" });
 
   $("#illustration1~.illustration_word").text("台灣,新北"); //兄弟元素選擇器用~
   $("#illustration2~.illustration_word").text("電機工程學系 - 大學部三年級");
@@ -35,7 +35,7 @@ $("#image_member2").click(function() {
   $(".person_word2").animate({right:'46vw'},0);
   $(".person_word3").text("““Every man dies. Not every man really lives.”");
   $(".person_word4").text("");
-  $("#image4").css({ "background": "url(https://ppt.cc/fzExnx@.png) no-repeat bottom left/contain" });
+  $("#image4").css({ "background": "url(https://ppt.cc/fRRtpx@.png) no-repeat bottom left/contain" });
 
   $("#illustration1~.illustration_word").text("台灣,台北"); //兄弟元素選擇器用~
   $("#illustration2~.illustration_word").text("電機工程學系 - 大學部四年級");
@@ -57,7 +57,7 @@ $("#image_member3").click(function() {
   $(".person_word2").animate({right:'40vw'},0);
   $(".person_word3").text("“You said if I believe enough, I would fly.”");
   $(".person_word4").text("");
-  $("#image4").css({ "background": "url(https://ppt.cc/fKbpOx@.png) no-repeat bottom left/contain" });
+  $("#image4").css({ "background": "url(https://ppt.cc/fwUYpx@.png) no-repeat bottom left/contain" });
 
   $("#illustration1~.illustration_word").text("台灣,基隆"); //兄弟元素選擇器用~
   $("#illustration2~.illustration_word").text("電機工程學系 - 大學部三年級");
