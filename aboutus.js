@@ -10,6 +10,7 @@ $("#image_member1").click(function() {
   $("#image_member5").animate({ "opacity": "0.3" }, 200);
   $(".person_word1").text("Zue-Hua Lee");
   $(".person_word2").text("Programmer");
+  $(".person_word2").animate({right:'50vw'},0);
   $(".person_word3").text("“Logic will get you from A to B,");
   $(".person_word4").text("Imagination will take you everywhere.”");
   $("#image4").css({ "background": "url(https://ppt.cc/fhwc7x@.png) no-repeat bottom left/contain" });
@@ -31,6 +32,7 @@ $("#image_member2").click(function() {
   $("#image_member5").animate({ "opacity": "0.3" }, 200);
   $(".person_word1").text("Yu-Chi Hsiung");
   $(".person_word2").text("Programmer");
+  $(".person_word2").animate({right:'46vw'},0);
   $(".person_word3").text("““Every man dies. Not every man really lives.”");
   $(".person_word4").text("");
   $("#image4").css({ "background": "url(https://ppt.cc/fzExnx@.png) no-repeat bottom left/contain" });
@@ -52,7 +54,7 @@ $("#image_member3").click(function() {
   $("#image_member5").animate({ "opacity": "0.3" }, 200);
   $(".person_word1").text("Tsai-Shuang Lan");
   $(".person_word2").text("Project Leader, Programmer");
-  // $(".person_word2").animate({right:'40vw'},0);
+  $(".person_word2").animate({right:'40vw'},0);
   $(".person_word3").text("“You said if I believe enough, I would fly.”");
   $(".person_word4").text("");
   $("#image4").css({ "background": "url(https://ppt.cc/fKbpOx@.png) no-repeat bottom left/contain" });
@@ -74,6 +76,7 @@ $("#image_member4").click(function() {
   $("#image_member5").animate({ "opacity": "0.3" }, 200);
   $(".person_word1").text("Kitson Lam");
   $(".person_word2").text("Designer");
+  $(".person_word2").animate({right:'53vw'},0);
   $(".person_word3").text("“Design is not just what it looks like and feels like.");
   $(".person_word4").text("Design is how it works.”");
   $("#image4").css({ "background": "url(https://ppt.cc/fZfAAx@.png) no-repeat bottom left/contain" });
@@ -95,6 +98,7 @@ $("#image_member5").click(function() {
   $("#image_member4").animate({ "opacity": "0.3" }, 200);
   $(".person_word1").text("Wen-Jin Yuan");
   $(".person_word2").text("Programmer");
+  $(".person_word2").animate({right:'48vw'},0);
   $(".person_word3").text("“An unexamined life is not worth living.”");
   $(".person_word4").text("");
   $("#image4").css({ "background": "url(https://ppt.cc/fsutzx@.png) no-repeat bottom left/contain" });
