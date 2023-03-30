@@ -5,77 +5,75 @@ body{
     font-weight: 600;
 }
 #WeLugg_main{
-    /*background: url(./material/main.png) center/cover;*/
+/*     background: url(./material/main.png) center/cover; */
     background: url(https://ppt.cc/f0lUsx@.png) center/cover;
     position: relative;
-    /*max-width: 1280px;*/
     width: 100vw;
     aspect-ratio: 29/8.68;
 }
 .main_word1{
+    display: none;
     font-size: 3vw;
     line-height: 3vw;
     color: #5D5B5B;
     position: absolute;
     width: 48%;
-    bottom: -25%; /*17%*/
-    opacity: 0;
-    /*top: 50%;*/
+    bottom: 17%;
     right: 0;
     white-space: nowrap;
     overflow: hidden;
 }
 .main_word2{
+    display: none;
+    animation-delay: 0.4s;
     font-weight: 500;
     font-size: 1.5vw;
     line-height: 3vw;
     color: #939191;
     position: absolute;
     width: 48%;
-    bottom: -39%; /*9%*/
-    opacity: 0;
+    bottom: 9%;
     right: 0;
     white-space: nowrap;
     overflow: hidden;
 }
 #WeLugg_title{
     position: relative;
-    /*max-width: 1280px;*/
     width: 100vw;
     aspect-ratio: 29/5.32;
 }
 #logo{
-    /*background: url(./material/logo.png) no-repeat center/contain;*/
+    display: none;
+    animation-delay: 0.8s;
     background: url(https://ppt.cc/fdccdx@.png) no-repeat center/contain;
     width: 30%;
     height: 65%;
     position: absolute;
-    opacity: 0;
-    bottom: -30%; /*18%*/
+    bottom: 18%;
     left: 29%;
 }
 .title_word1{
+    display: none;
+    animation-delay: 0.8s;
     font-size: 4vw;
     color: #87C2B6;
     position: absolute;
-    bottom: -25%; /*25%*/
-    opacity: 0;
+    bottom: 25%;
     right: calc(38% + 9vw);
     
 }
 .title_word2{
+    display: none;
+    animation-delay: 0.8s;
     font-size: 4vw;
     color: #5B7097;
     position: absolute;
-    bottom: -30%;
-    opacity: 0;
+    bottom: 25%;
     right: 37%;
-  
 }
 #WeLugg_aboutCompany{
     background-color: #EEEEEE;
     position: relative;
-    /*max-width: 1280px;*/
     width: 100vw;
     aspect-ratio: 29/15;
 }
@@ -88,53 +86,60 @@ body{
     justify-content: space-evenly;
 }
 #image_left{
-    /*background: url(./material/image_left.png) no-repeat center/contain;*/
+    display: none;
+    animation-delay: 0.8s;
+/*     background: url(./material/image_left.png) no-repeat center/contain; */
     background: url(https://ppt.cc/fCJkvx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
-    margin-top: 20%;
-    opacity: 0;
     margin-left: 12%;
 }
 #image_mid{
+    display: none;
+    animation-delay: 0.8s;
+/*     background: url(./material/image_mid.png) no-repeat center/contain; */
     background: url(https://ppt.cc/fjMbZx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
     margin: 0 1%;
-    margin-top: 20%;
-    opacity: 0;
 }
 #image_right{
+    display: none;
+    animation-delay: 0.8s;
+/*     background: url(./material/image_right.png) no-repeat center/contain; */
     background: url(https://ppt.cc/fxUfYx@.png) no-repeat center/contain;
     width: 30%;
     height: 100%;
     margin-right: 12%;
 }
 .aboutCompany_word1{
+    display: none;
     font-size: 3vw;
     color: #7184A6;
     position: absolute;
     text-align: center;
     width: 100%;
-    top: calc(40% - 7vw); /*calc(25% - 7vw)*/
-    opacity: 0;
+    top: calc(25% - 7vw);
     line-height: 3vw;
     white-space: nowrap;
     overflow: hidden;
 }
 .aboutCompany_word2{
+    display: none;
+    animation-delay: 0.4s;
     font-size: 1.5vw;
     color: #939191;
     position: absolute;
     text-align: center;
     width: 100%;
-    top: calc(40% - 4vw);; /*top: calc(25% - 4vw);*/
-    opacity: 0;
+    top: calc(25% - 4vw);
     line-height: 3vw;
     white-space: nowrap;
     overflow: hidden;
 }
 .aboutCompany_word3{
+    display: none;
+    animation-delay: 1.2s;
     font-size: 1.3vw;
     color: #5D5B5B;
     position: absolute;
@@ -145,6 +150,8 @@ body{
     overflow: hidden;
 }
 .aboutCompany_word4{
+    display: none;
+    animation-delay: 1.6s;
     font-weight: 400;
     font-size: 1.3vw;
     color: #939191;
@@ -157,7 +164,6 @@ body{
 }
 #WeLugg_aboutUs{
     position: relative;
-    /*max-width: 1280px;*/
     width: 100vw;
     aspect-ratio: 29/12;
 }
@@ -170,30 +176,55 @@ body{
     justify-content: space-evenly;
 }
 #image_member1{
+    cursor: pointer;
+    opacity: 0.3;
     background: url(https://ppt.cc/fHAlkx@.png) no-repeat center/contain;
     width: 17%;
-    height: 100%;
+    height: auto;
+    margin: 0 1%;
 }
 #image_member2{
+    cursor: pointer;
+    opacity: 0.3;
     background: url(https://ppt.cc/fNC8ax@.png) no-repeat center/contain;
     width: 17%;
-    height: 100%;
+    height: auto;
+    margin: 0 1%;
 }
 #image_member3{
+    cursor: pointer;
+    opacity: 0.3;
     background: url(https://ppt.cc/f8S9lx@.png) no-repeat center/contain;
     width: 17%;
-    height: 100%;
+    height: auto;
+    margin: 0 1%;
 }
 #image_member4{
+    cursor: pointer;
+    opacity: 1;
     background: url(https://ppt.cc/fleazx@.png) no-repeat center/contain;
     width: 17%;
-    height: 100%;
+    height: auto;
+    margin: 0 1%;
 }
 #image_member5{
+    cursor: pointer;
+    opacity: 0.3;
     background: url(https://ppt.cc/fJkL9x@.png) no-repeat center/contain;
     width: 17%;
-    height: 100%;
+    height: auto;
+    margin: 0 1%;
 }
+#image_member1:hover,
+#image_member2:hover,
+#image_member3:hover,
+#image_member4:hover,
+#image_member5:hover{
+    opacity: 0.7;
+    width: 19%;
+    margin: 0;
+}
+
 .aboutUs_word1{
     font-size: 3vw;
     color: #7184A6;
@@ -229,7 +260,7 @@ body{
     font-size: 2.2vw;
     position: absolute;
     top: calc(12% + 4vw);
-    left: 36vw;
+    right: 50vw;
 }
 .person_word3{
     color: #939191;
@@ -242,7 +273,7 @@ body{
     font-size: 1.2vw;
     position: absolute;
     top: calc(12% + 12vw);
-    left: 36vw;
+    right: 50vw;
 }
 .person_line{
     border: 0.2vw solid #7A7676;
@@ -320,8 +351,8 @@ body{
     top: 60%;
 }
 .world_map{
-    /*background: url(./material/world_map.png) no-repeat center/contain;*/
-    background: url(https://ppt.cc/fefB1x@.png) no-repeat center/contain;
+    background: url(https://ppt.cc/f0Mxdx@.png) no-repeat center/contain;
+    /* background: url(https://ppt.cc/fefB1x@.png) no-repeat center/contain; */
     width: 80%;
     height: 38%;
     position: absolute;
