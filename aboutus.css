@@ -245,7 +245,6 @@ body{
 #WeLugg_person1{
     background-color: #EEEEEE;
     position: relative;
-    /*max-width: 1280px;*/
     width: 100vw;
     aspect-ratio: 29/40;
     padding: 15%;
@@ -267,6 +266,8 @@ body{
     font-size: 1.2vw;
     position: absolute;
     top: calc(12% + 10vw);
+    white-space: nowrap;
+    overflow: hidden;
 }
 .person_word4{
     color: #939191;
@@ -274,6 +275,8 @@ body{
     position: absolute;
     top: calc(12% + 12vw);
     right: 50vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .person_line{
     border: 0.2vw solid #7A7676;
@@ -294,7 +297,7 @@ body{
     position: absolute;
     width: 50%;
     height: 8%;
-    top: 28%;
+    top: 30%;
     left: 25%;
     display:flex;
     justify-content: space-between;
@@ -333,6 +336,8 @@ body{
     text-align: center;
     width: 70%;
     top: 40%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .person_word6{
     color: #5D5B5B;
@@ -341,6 +346,8 @@ body{
     text-align: center;
     width: 70%;
     top: 44%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .person_word7{
     color: #939191;
