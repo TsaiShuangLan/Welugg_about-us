@@ -86,7 +86,7 @@ $("#image_member4").click(function() {
   $("#illustration3~.illustration_word").text("4月7日");
 
   $(".person_word6").html("<p>我是一個很喜歡發問，經常會思考為什麼的人。</p><p>當發現有問題時，會馬上著手找答案。</p><p>而我認為做設計是需要勇於發問，並且接受評價才會有所進步。</p><p>我也很喜歡完成一個作品或設計時的成就感，在每一個設計的步驟我都會很認真參與，享受過程</p>");
-  $(".world_map").css({ "background": "url(.https://ppt.cc/fbw9Xx@.png) no-repeat center/contain" });
+  $(".world_map").css({ "background": "url(https://ppt.cc/fbw9Xx@.png) no-repeat center/contain" });
 });
 
 //文謹
